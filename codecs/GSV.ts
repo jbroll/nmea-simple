@@ -62,7 +62,7 @@ export interface GSVPacket extends PacketStub<typeof sentenceId> {
 
 
 export function decodeSentence(stub: PacketStub, fields: string[]): GSVPacket {
-    const numRecords = (fields.length - 4) / 4;
+    const numRecords = Math.floor((fields.length - 4) / 4);
     const sats: Satellite[] = [];
 
     for (let i = 0; i < numRecords; i++) {
