@@ -1,11 +1,11 @@
 {
-  "name": "nmea-simple",
+  "name": "@jbroll/nmea-simple",
   "version": "3.3.2",
-  "homepage": "https://github.com/101100/nmea-simple",
+  "homepage": "https://github.com/jbroll/nmea-simple",
   "description": "NMEA 0183 sentence parser and encoder",
   "author": {
-    "name": "Jason Heard",
-    "email": "jasonpheard@gmail.com"
+    "name": "John Roll",
+    "email": "john@rkroll.com"
   },
   "license": "MIT",
   "main": "dist/index.js",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/101100/nmea-simple"
+    "url": "https://github.com/jbroll/nmea-simple"
   },
   "bugs": {
-    "url": "https://github.com/101100/nmea-simple/issues"
+    "url": "https://github.com/jbroll/nmea-simple/issues"
   },
   "scripts": {
     "build": "npm run lint && tsc",
