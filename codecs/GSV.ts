@@ -69,10 +69,10 @@ export function decodeSentence(stub: PacketStub, fields: string[]): GSVPacket {
         const offset = i * 4 + 4;
 
         sats.push({
-            prnNumber: parseIntSafe(fields[offset]),
-            elevationDegrees: parseIntSafe(fields[offset + 1]),
-            azimuthTrue: parseIntSafe(fields[offset + 2]),
-            SNRdB: parseIntSafe(fields[offset + 3])
+            prnNumber: parseInt(fields[offset], 10),
+            elevationDegrees: parseInt(fields[offset + 1], 10),
+            azimuthTrue: parseInt(fields[offset + 2], 10),
+            SNRdB: parseInt(fields[offset + 3], 10)
         });
     }
 
