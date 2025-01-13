@@ -9,9 +9,5 @@ rc:
 publish:
 	TAG=$$(eval echo $$(npm pkg get version)); npm version $${TAG%%-*}
 	npm pkg get version
+	npm publish --tag rc --access public
 
-
-
-# echo npm verison ${TAG##-}
-# npm version prerelease --preid rc
-# npm publish --tag rc --access public

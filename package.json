@@ -1,6 +1,6 @@
 {
   "name": "@jbroll/nmea-simple",
-  "version": "3.3.3-rc.0",
+  "version": "3.3.3",
   "homepage": "https://github.com/jbroll/nmea-simple",
   "description": "NMEA 0183 sentence parser and encoder",
   "author": {
